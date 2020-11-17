@@ -49,8 +49,5 @@ public class LongestNonRepeatingSubstring {
         assertEquals(5,newSol.lengthOfLongestSubstring("h g44 12g "));
         assertEquals(1,newSol.lengthOfLongestSubstring(" "));
         assertEquals(2,newSol.lengthOfLongestSubstring("au"));
-
-//        newSol.lengthOfLongestSubstring("au");
-//        System.out.println("Expected answer is: 2\n---------------------------------");
     }
 }

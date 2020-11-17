@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class medianTwoSortAr {
+public class MedianTwoSortAr {
 
     int[] combineArrays(int[] nums1, int[] nums2) {
 //        check if any are empty, if so just return the other
@@ -42,7 +42,7 @@ public class medianTwoSortAr {
     }
 
     public static void main(String[] args) {
-        medianTwoSortAr newSol = new medianTwoSortAr();
+        MedianTwoSortAr newSol = new MedianTwoSortAr();
         assertEquals(2.0,newSol.findMedianSortedArrays(new int[]{1,3}, new int[]{2}));
         assertEquals(2.5,newSol.findMedianSortedArrays(new int[]{1,2}, new int[]{3,4}));
         assertEquals(0.0,newSol.findMedianSortedArrays(new int[]{0,0}, new int[]{0,0}));
